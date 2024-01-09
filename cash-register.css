@@ -28,7 +28,7 @@
     }
     #wrapper{
         background-color: #1a0a04a3;
-        height: 400px;
+        height: 430px;
         width: 500px;
         margin:  2rem auto;
         text-align: center;
@@ -87,3 +87,13 @@
     transition: all 0.2s ease;
    }
 
+
+   @media screen and (min-width: 100px) and (max-width:500px){
+
+    #wrapper{
+        height: unset !important;
+    }
+
+   }
+    
+   
