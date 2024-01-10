@@ -88,10 +88,10 @@
    }
 
 
-   @media screen and (min-width: 100px) and (max-width:500px){
+   @media screen and (min-width: 252px) and (max-width:560px) {
 
     #wrapper{
-        height: unset !important;
+        width: unset !important;
     }
 
    }
